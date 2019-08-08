@@ -1,0 +1,21 @@
+{"signature":"302c0214576418e7a3deb429b7fde22777c8100867137c4902140eb471a0312a667ce9ef73e735a7396067444750","publickey":"-----BEGIN PUBLIC KEY-----
+MIIDPDCCAi4GByqGSM44BAEwggIhAoIBAQDnqY2kDsTqNQ2KrpLMMggeWF75v+7A
+DMpdZvVhTank/umtO3bk8v68KhC5gYpbo9CYrJ/Pl1DkBTSvSkNY6zs4bkqxBpqv
+AkUJWYprchYuKwv5v10bBUSKQH29awfLbJr67GLaq4XtQdaGRxlpRW9r1hGRRwGb
+mIb2aEfBUiKS8h7U90dRarwyHg0PSeZ3W0chQoazkMqNamoCUzDylXikLRQHqN/R
+/WGmztWU879Gd8gTXQp3esa6V3JkPr8xghMCceZ/FKoDtoX7DzWFByGQNMAg3E4I
+TuMfXYUcrd2WsBAFWuRFwQNm5jXYpcRqeFU9u4dFFoxAb8zBdw///GwjAhUA8Rjl
+wFtYePCpuhzlynSbhync2ukCggEBANPXaEl7Y/YdjIbhsn+A2Z+ictLycbZRLDPO
+iDin/ZUDjifEgfSPk4by2Qh3gwtiPtxdS/zn2xeSk2SsqpYoLe471RH2Auy256rZ
+iavp7+6KC4AIkMnVf294J0Tg5YcNeU5VZxqVUgeGZYJmOonFBXX6uO/M69xzdVKL
+w0iAMuNYKO+ZcB6qOQHYiqCNk3lYm0E719mo4GIdtIbonjgH+60/TZmhcFOJrCm6
+QI+xpe4P7UGPRC19tIIgB68zz003a7zmLniNMiWlp4RR8PXOi5uoepJ//eW/SCYT
+veo1ukr65C6R80K2vWiPAZLnZEmuBi47c0OrkITWOCVnjy4H+gQDggEGAAKCAQEA
+3d3wHyXppjnS7g+XRrtNWzhVAlqAfzWjvnuZGII4fzuZc6A+4HoFhBW3QQ/EZxTs
+qNvYs3VxCdrak3iSa0yG3VBuQvjlCq4HiUys+QDWoBfENMcUMedvbFOqhi7ibA49
+5HFF3J56MqRkOPbH98p5mw+kEv8tBqhJVBUqecUw6GrJWW7f9GXZUtGZzH0PujjJ
+bCW9Z4YzzFYiFofVwjM39RIGgii1pq92vVU5wgHPkuon1iGA5ecYWJASovQd0jX7
+vRQtyo4D5VoHqQaVojgV4Jws1g8VoYLPNj6/aKgTQ/hG7H5ghRZGjKPhi8HFczkg
+aHuFLpCoKi7j5UGEDGcj2g==
+-----END PUBLIC KEY-----
+","licensecontent":{"Licensor":"Nexenta Systems Inc.", "ProductName":"NexentaStor", "ProductVersion":"5.x", "SerialNumber":"SR-DEV-NS-201951739", "Licensee":"Nexenta-ryuji.masuda@nexenta.com", "ActivationToken":"3FEE2E94-9051-493C-B6AF-4182081EC137", "IssuedDate":"08/04/2019", "LicenseType":"ENTERPRISE-TRIAL(Nexenta Internal)", "GUID":"564DEFE059210F2C6F568C751F4C9347", "ExpiryDate":"09/18/2019", "MaintenanceDetails": { "StartDate":"08/04/2019", "EndDate":"09/18/2019" }, "LicenseFeatures":{"NexStor":{ "OptionBase": { "Name":"Base Capacity", "Qty":"128", "UOM":"TB", "Qualifier1":"Raw Capacity", "Qualifier2":"" },"OptionTargetFC":{ "Name":"Fibre Channel", "Qty":1, "UOM":"System", "Qualifier1":"", "Qualifier2":"" },"OptionHA":{ "Name":"HA", "Qty":1, "UOM":"System", "Qualifier1":"2 Nodes", "Qualifier2":"" },"OptionReplication":{ "Name":"Replication", "Qty":1, "UOM":"System", "Qualifier1":"Continuous", "Qualifier2":"" },"OptionAllFlash":{ "Name":"All-Flash", "Qty":1, "UOM":"System", "Qualifier1":"Pool", "Qualifier2":"" },"OptionS3Pool":{"Name":"S3 pool","Qty": "10","UOM": "TiB","Qualifier1": "","Qualifier2": ""}} },"ThirdPartyLicenses":{"HAC":{ "RSF-1": { "License":{  "Error": "false",  "license.564defe0-5921-0f2c-6f56-8c751f4c9347": "0ZLy/ISGOrP5saVbmzrFw1XX"}}}} }}

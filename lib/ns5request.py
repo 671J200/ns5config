@@ -10,9 +10,11 @@ class Ns5request:
         self.username = "None"
         self.password = "None"
         self.hostname = "None"
+        self.header = "None"
+        self.connection = ''
 
     def get_token(self):
-        return self.token
+        return self.token,self.header
 
     def ns5login(self, hostname, username, password):
         self.hostname = hostname
@@ -22,15 +24,25 @@ class Ns5request:
 
         contx = ssl._create_unverified_context()
 
-        connection = http.client.HTTPSConnection(self.hostname, context=contx)
+        self.connection = http.client.HTTPSConnection(self.hostname, context=contx)
         headers = {'Content-type': 'application/json'}
 
         creds = { 'username': self.username, 'password': self.password }
         json_creds = json.dumps(creds)
-        connection.request('POST', '/auth/login', json_creds, headers)
+        self.connection.request('POST', '/auth/login', json_creds, headers)
 
-        response = connection.getresponse()
+        response = self.connection.getresponse()
         json_response = json.loads(response.read().decode())
         self.token = json_response.get('token')
+        self.header = {
+                        "Accept": "application/json",
+                        "Content-Type": "application/json",
+                        "Authorization" : "Bearer " + self.token
+                      }
+
+    def ns5get(self, method):
+        self.connection.request('GET', method, None, self.header)
+        response = self.connection.getresponse()
+        return(response.read().decode())
 
 
